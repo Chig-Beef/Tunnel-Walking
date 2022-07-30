@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#map {
+    width: 500px;
+    height: 500px;
+    padding: 0;
+    background-color: lightgray;
+    border: 3px darkgray solid;
+}
+
+.map_section {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 0;
+}
+
+.info {
+    color: black;
+}
+
+#size_key {
+    width: 500px;
+    height: 20px;
+    background-image: linear-gradient(to right, red, yellow, blue);
+    border-radius: 3px;
+}
